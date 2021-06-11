@@ -1,0 +1,17 @@
+{
+    "name": "rest-full/rest-full",
+    "description": "Rest Full fraework",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "autoload": {"psr-4": {"Restfull\\": "src"}},
+    "require": {
+        "ext-mbstring": "*",
+        "ext-pdo": "*",
+        "ext-json": "*",
+        "ext-fileinfo": "*",
+        "ext-gd": "*",
+        "ext-curl": "*",
+        "ext-libxml": "*"
+    }
+}
