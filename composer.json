@@ -1,0 +1,53 @@
+{
+    "name": "rest-full/rest-full",
+    "description": "The Rest-Full framework.",
+    "type": "library",
+    "minimum-stability": "stable",
+    "license": "mit",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "José Luis",
+            "email": "simaowebsolutions@yahoo.com"
+        }
+    ],
+    "autoload": {
+		"psr-4": {
+			"Restfull\\": "src"
+		}
+	},
+    "require": {
+        "ext-mbstring": "*",
+        "ext-pdo": "*",
+        "ext-json": "*",
+        "ext-fileinfo": "*",
+        "ext-gd": "*",
+        "ext-curl": "*",
+        "ext-libxml": "*",
+        "monolog/monolog": "1.*",
+        "firebase/php-jwt": "v5.*",
+        "spipu/html2pdf": "v5.*",
+        "mpdf/mpdf": "v8.*",
+        "dompdf/dompdf": "v2.*",
+        "phpmailer/phpmailer": "v6.*",
+        "chillerlan/php-qrcode": "4.*",
+        "pragmarx/random": "v0.*",
+        "rest-full/correios": "1.*"
+    },
+    "replace": {
+        "rest-full/authentication": "self.version",
+        "rest-full/container": "self.version",
+        "rest-full/error": "self.version",
+        "rest-full/event": "self.version",
+        "rest-full/filesystem": "self.version",
+        "rest-full/htmltopdf": "self.version",
+        "rest-full/http": "self.version",
+        "rest-full/mail": "self.version",
+        "rest-full/orm": "self.version",
+        "rest-full/plugins": "self.version",
+        "rest-full/route": "self.version",
+        "rest-full/search": "self.version",
+        "rest-full/security": "self.version",
+        "rest-full/utility": "self.version"
+    }
+}
